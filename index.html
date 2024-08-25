@@ -170,14 +170,14 @@
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
-							}, i * 150); // Increase the delay to slow down the typing animation
+							}, i * 170); // Increase the delay to slow down the typing animation
 						}
 
 						// Once the animation is complete, reset the text and start over
 						setTimeout(() => {
 							typingAnimationElement.textContent = '';
 							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 150);
+						}, text.length * 170);
 						}
 
 						// Start the typing animation loop
@@ -237,13 +237,13 @@
 											aria-valuemax="100"></div>
 									</div>
 
-									<span>Wordpress</span> <span class="pull-right">95%</span>
+									<span>Wordpress, Elementor Pro</span> <span class="pull-right">95%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 
-									<span>Elementor Pro</span> <span class="pull-right">80%</span>
+									<span>PHP, MySQL</span> <span class="pull-right">80%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
 											aria-valuemax="100"></div>
@@ -301,10 +301,10 @@ time, exceeding client expectations.</p>
 
 						<div class="counter-wrap ftco-animate d-flex mt-md-3">
 							<div class="text">
-								<p class="mb-4">
+								<!-- <p class="mb-4">
 									<span class="number" data-number="15">0</span> <span>+</span>
 									<span>&nbsp; Projects completed</span>
-								</p>
+								</p> -->
 								<p><a href="https://www.linkedin.com/in/usamadeveloper/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
 							</div>
 						</div>
@@ -429,7 +429,7 @@ time, exceeding client expectations.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 d-flex ftco-animate">
+          <!-- <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
               <a href="#" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
               </a>
@@ -439,8 +439,8 @@ time, exceeding client expectations.</p>
                 <p>coming soon,coming soon,coming soon,coming soon </p>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
+          </div> -->
+          <!-- <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
               <a href="#" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
               </a>
@@ -450,11 +450,11 @@ time, exceeding client expectations.</p>
                 <p>coming soon,coming soon,coming soon,coming soon.</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 	<br>
 		<!-- added justify-content-center to center align the last two projects -->
-		<div class="row d-flex justify-content-center">  
+		<!-- <div class="row d-flex justify-content-center">  
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
 				<a href="#" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
@@ -477,7 +477,7 @@ time, exceeding client expectations.</p>
 				</div>
 			  </div>
 			</div>
-		 </div>
+		 </div> -->
 	  </div>
     </section>
 
